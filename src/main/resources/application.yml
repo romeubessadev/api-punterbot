@@ -1,0 +1,24 @@
+punterbot:
+  seguranca:
+    admin:
+      usuario: ${ADMIN_LOGIN}
+      senha: ${ADMIN_PASSWORD}
+    token: ${SECURITY_TOKEN}
+  hotmart:
+    id: f304c2f5-6023-43d3-9c88-4a0875a03c2b
+    secret: 56c9af49-016b-4b8f-95d2-36ce20fdcfa8
+    token: Basic ZjMwNGMyZjUtNjAyMy00M2QzLTljODgtNGEwODc1YTAzYzJiOjU2YzlhZjQ5LTAxNmItNGI4Zi05NWQyLTM2Y2UyMGZkY2ZhOA==
+  sportmonks:
+    url: ${SPORTMONKS_URL}
+    token: ${SPORTMONKS_TOKEN}
+
+server:
+  port: ${API_PORT}
+
+mongodb:
+  punterbot:
+    database: punterbot
+    host: ${DATABASE_HOST}
+    port: ${DATABASE_PORT}
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASSWORD}
